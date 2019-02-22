@@ -1,1 +1,2 @@
-# CS591_MEAN
+Charles Huang
+CS 591 MEAN Homework
