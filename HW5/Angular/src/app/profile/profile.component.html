@@ -1,0 +1,22 @@
+<h2>Profile</h2>
+<div>Name: {{user.name}}</div>
+<div>Location: {{user.loc}}</div>
+<br>
+<br>
+<div>
+  <label>Name:
+    <input [(ngModel)]="user.name" type="text" placeholder="Name"/>
+  </label>
+  <br>
+  <label>Location:
+    <input [(ngModel)]="user.loc" type="text" placeholder="Location (City)"/>
+  </label>
+  <br>
+  <button (click)="update()">Update Profile</button>
+  <br>
+  <br>
+  <label>or</label>
+  <br>
+  <br>
+  <a href="http://localhost:3000/auth/google"><button>Login with Google</button></a>
+</div>
